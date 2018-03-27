@@ -2,17 +2,27 @@
 
 <suite name="Suite">
 
+    <!--
     <test name="AndroidTest">
         <parameter name="udid" value="BH90018AAX" />
         <classes>
-            <class name="firstTest"/>
+            <class name="Tests.firstTest"/>
         </classes>
     </test>
+
 
     <test name="iOSTest">
         <parameter name="udid" value="ff0aa048ab936447e8c9eef7635be6a2f8928772" />
         <classes>
-            <class name="secondTest"/>
+            <class name="Tests.secondTest"/>
+        </classes>
+    </test>
+-->
+
+    <test name="Facebook IOS">
+        <parameter name="udid" value="ff0aa048ab936447e8c9eef7635be6a2f8928772" />
+        <classes>
+            <class name="Tests.secondTest"/>
         </classes>
     </test>
 
